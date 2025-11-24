@@ -1,11 +1,11 @@
 // ESERCIZIO 1 : Creare un paragrafo interamente in javascript attraverso il dom e collegarlo ad un contenitore genitore. 
 
-// let div = document.querySelector(`#padre`);
-// let paragraf = document.createElement(`p`)
-// div.innerHTML = "Sono un tag p figlio di div row"
-// section.appendChild(paragraf)
+let div = document.querySelector(`#padre`);
+let paragraf = document.createElement(`p`)
+paragraf.innerHTML = "Sono un tag p figlio di div row"
+section.appendChild(paragraf)
 
-// console.dir(paragraf)
+console.dir(paragraf)
 
 
 
